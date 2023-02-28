@@ -451,7 +451,7 @@ do
     end
 end
   
-      function Library:PerformConfigAction(ConfigName, Action)
+    
         if ConfigName then
             if Action == "Delete" then
                 local Found = Find(PVZ.Configs, ConfigName)
